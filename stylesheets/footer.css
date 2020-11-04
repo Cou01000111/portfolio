@@ -1,0 +1,25 @@
+footer{
+  background-color: #46B9FF;
+  height: 400px;
+}
+footer > h1{
+  color: #E0F4FF;
+  margin: 0px;
+  padding: 14px;
+  font-size: small;
+}
+
+footer > .links{
+  padding: 0;
+}
+
+footer > .links > a > i{
+  color: #E0F4FF;
+  padding: 4px 16px 4px 16px;
+  margin: 4px 0px 8px 0px;
+  border-right: solid 1px #E0F4FF;
+}
+
+footer > .links > a > i:hover{
+  color: white;
+}

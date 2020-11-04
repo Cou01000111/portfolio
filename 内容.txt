@@ -1,0 +1,36 @@
+内容
+* 自己紹介
+ \
+  * 名前:yuki
+  * 年齢:16
+  * Links
+   \
+    * youtube
+    * GitHub
+  * 自分が持ってる資格
+   \
+    * ITパスポート（高1）
+    * 基本情報技術者試験（予定<=ここ重要）
+  * 自分が使える技術
+   \
+    * html
+    * css
+    * bootstrap
+    * js
+     \
+      * node.js
+    * c
+    * c++
+    * git/GitHub
+    * 学習中
+     \
+      * C#
+       \
+        * WPF
+* 成果物
+ \
+  * Minecraft Damage Clac Web
+   \
+    * Git pages Link
+* やってきたこと
+* 経歴
