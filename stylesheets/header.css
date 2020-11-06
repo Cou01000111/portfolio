@@ -16,7 +16,7 @@ header{
 
 header > a > img{
   height: 100%;
-  filter: drop-shadow(10px 10px 5px  rgba(0, 0, 0, 20%));
+
 }
 
 .links{
@@ -33,7 +33,7 @@ header > .links > li{
 
 header > .links > li > a{
   display: block;
-  margin: 16px 32px 16px 32px;
+  padding: 16px 32px 16px 32px;
   background-color:white;
   color: #46B9FF;
   text-decoration: none;
