@@ -19,7 +19,6 @@ header > a{
 }
 
 .links{
-  padding: 8px;
   list-style: none;
   overflow: hidden;
   margin: 4px 0px;
@@ -40,6 +39,6 @@ header > .links > li > a{
   /*box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 10%);*/
 }
 
-header > .links > a:hover {
+header > .links > li:hover {
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 20%);
 }
