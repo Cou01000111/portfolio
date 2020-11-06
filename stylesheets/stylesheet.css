@@ -21,10 +21,14 @@ h1, h2, h3, h4, h5, p{
 
 h1{
   padding-left: 6px;
-  border-top: solid 1px #46B9FF;
+  border-bottom: solid 1px #46B9FF;
   border-left: solid 3px #46B9FF;
 }
 
 h2{
   color: #46B9FF;
+}
+
+h3{
+  border-bottom: solid 1px #46B9FF;
 }
