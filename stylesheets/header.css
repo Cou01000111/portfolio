@@ -22,7 +22,7 @@ header > a{
   padding: 8px;
   list-style: none;
   overflow: hidden;
-  margin-right: 8px;
+  margin: 4px 0px;
 }
 
 header > .links > li{
