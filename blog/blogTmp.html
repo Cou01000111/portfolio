@@ -22,8 +22,12 @@
     </ul>
   </header>
   <main>
-    <h1>title</h1>
-    <p>texttexttexttexttexttexttexttexttexttexttxt</p>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      axios.get('./blogTmp.md')
+        .then(response => document.querySelector('#content').innerHTML = marked(response.data));
+    </script>
   </main>
 
   <footer>
