@@ -25,11 +25,11 @@ header > a{
 }
 
 header > .links > li{
-  margin: 0px 8px 4px 8px;
+  margin: 0px 8px 0px 8px;
   border-top: solid 1px #46B9FF;
   border-left: solid 3px #46B9FF;
   float: left;
-  padding: 16px 32px 16px 32px;
+  padding: 20px 32px 20px 32px;
 }
 
 header > .links > li > a{
