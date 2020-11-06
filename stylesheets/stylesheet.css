@@ -15,11 +15,12 @@ a{
 }
 
 h1, h2, h3, h4, h5, p{
-  padding: 2px;
+  padding: 3px;
+  color: #303030;
 }
 
 h1{
-  padding-left: 2px;
+  padding-left: 6px;
   border-top: solid 1px #46B9FF;
   border-left: solid 3px #46B9FF;
 }
