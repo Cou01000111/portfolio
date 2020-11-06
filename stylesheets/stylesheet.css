@@ -13,3 +13,12 @@ main{
 a{
   text-decoration: none;
 }
+
+h1{
+  border-top: solid 1px #46B9FF;
+  border-left: solid 3px #46B9FF;
+}
+
+h2{
+  color: #46B9FF;
+}
