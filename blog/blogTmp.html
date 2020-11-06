@@ -25,7 +25,10 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
       axios.get('./blogTmp.md')
-        .then(response => document.querySelector('#content').innerHTML = marked(response.data));
+        .then(response => {
+          document.querySelector('#content').innerHTML = marked(response.data)
+          console.log(response.data)
+      });
     </script>
   </main>
 
