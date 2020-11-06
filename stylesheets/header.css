@@ -3,6 +3,7 @@ main{
 }
 
 header{
+  padding: 16px;
   top: 0;
   background-color: white;
   display: flex;
@@ -14,22 +15,19 @@ header{
 }
 
 header > a{
-  padding-top: 8px;
-  padding-bottom: 4px;
 }
 
 .links{
   list-style: none;
   overflow: hidden;
-  margin: 8px 0px;
 }
 
 header > .links > li{
-  margin: 0px 16px 0px 8px;
+  margin: 0px 32px 4px 0px;
   border-top: solid 1px #46B9FF;
   border-left: solid 3px #46B9FF;
   float: left;
-  padding: 20px 32px 20px 32px;
+  padding: 16px 32px 16px 32px;
 }
 
 header > .links > li > a{
