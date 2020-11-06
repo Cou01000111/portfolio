@@ -14,7 +14,7 @@ header{
   width: 100%;
 }
 
-header > img{
+header > a > img{
   height: 100%;
 }
 
