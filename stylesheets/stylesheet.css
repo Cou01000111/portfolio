@@ -15,20 +15,28 @@ a{
 }
 
 h1, h2, h3, h4, h5, p{
-  padding: 3px;
+  padding: 8px;
   color: #303030;
 }
 
+h1, h2, h3, h4, h5{
+  margin-bottom: 12px;
+}
+
 h1{
-  padding-left: 6px;
+  margin-bottom: 4px;
   border-bottom: solid 1px #46B9FF;
   border-left: solid 3px #46B9FF;
 }
 
 h2{
-  color: #46B9FF;
+  border-bottom: solid 1px #46B9FF;
 }
 
 h3{
-  border-bottom: solid 1px #46B9FF;
+  color: #46B9FF;
+}
+
+p{
+  margin: 0px 32px 0px 32px;
 }
