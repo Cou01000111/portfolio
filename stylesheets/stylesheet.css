@@ -37,6 +37,14 @@ h3{
   color: #46B9FF;
 }
 
+h4{
+  margin: 0px 16px 0px 16px;
+}
+
+h5{
+  margin: 0px 24px 0px 24px;
+}
+
 p{
   margin: 0px 32px 0px 32px;
 }
