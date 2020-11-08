@@ -24,7 +24,7 @@ header > a > img{
 }
 
 header > .links > li{
-  margin: 0px 32px 4px 0px;
+  margin: 0px 32px 8px 0px;
   border-top: solid 1px #46B9FF;
   border-left: solid 3px #46B9FF;
   float: left;
@@ -40,5 +40,5 @@ header > .links > li > a{
 }
 
 header > .links > li:hover {
-  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 20%);
+  box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 20%);
 }
