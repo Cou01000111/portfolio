@@ -8,9 +8,13 @@
 
 .content > h1 ,.content > h2 ,.content > h3 ,.content > h4 ,.content > h5 ,.content > p{
   color:#242424;
-  padding: 4px;
+  padding: 2px;
 }
 
 .content:hover{
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 20%);
+}
+
+.content p{
+   margin-left: 4px;
 }
