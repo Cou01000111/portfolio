@@ -45,6 +45,10 @@ h5{
   margin: 0px 24px 0px 24px;
 }
 
-p{
+p, img{
   margin: 0px 32px 0px 32px;
+}
+
+img{
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 20%);
 }
