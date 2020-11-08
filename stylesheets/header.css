@@ -16,6 +16,8 @@ header{
 
 header > a > img{
   padding-top: 13px;
+  box-shadow: none;
+  border: none;
 }
 
 .links{
