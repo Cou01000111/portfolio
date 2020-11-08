@@ -14,7 +14,7 @@ a{
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, p{
+h1, h2, h3, h4, h5, p, img{
   padding: 12px;
   padding-bottom: 6px;
   color: #303030;
@@ -51,4 +51,5 @@ p, img{
 
 img{
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 20%);
+  border: solid 1px #46B9FF;
 }
