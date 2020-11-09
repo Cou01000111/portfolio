@@ -13,12 +13,15 @@ int main(int argc, char *argv[]){
     printf("The maximum number of characters in a file name is 255.");
     exit(1);
   }
+
+
   FILE *fp;
   //新規作成するファイル名
   char fileName[256];
   strcpy(fileName,argv[1]);
   //新規作成するhtmlファイルの中身
   char html[2048];
+
   //テンプレートファイルを読み込み
   fp = fopen("./blog/blogTmp.html", "r");
   //読み込みミスった時の処理
@@ -26,6 +29,7 @@ int main(int argc, char *argv[]){
     printf("htmlTmpファイルが読み込めませんでした");
     return -1;
   }
+
   //バッファのb
   char b[256];
   //blogTmp.htmlからhtmlテンプレートを一行ずつNULLが読み込まれるまで読み込み
@@ -37,12 +41,14 @@ int main(int argc, char *argv[]){
     strcat(html,b);
   }
   fclose(fp);
+
   //printf("%s",html);
   //新規作成するhtmlファイルのPath
   char newFilePathHtml[256];
   //新規作成するMdファイルのPath
   char newFilePathMd[256];
   //Path生成
+
   sprintf(newFilePathHtml, "./blog/%s.html",fileName );
   sprintf(newFilePathMd, "./blog/%s.md",fileName );
 
