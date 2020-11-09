@@ -38,6 +38,7 @@ header > .links > li > a{
   background-color:rgba(255, 255, 255, 0%);
   color: #46B9FF;
   text-decoration: none;
+  box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 20%);
   /*box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 10%);*/
 }
 
