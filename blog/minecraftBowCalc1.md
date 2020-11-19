@@ -9,9 +9,9 @@ Motion,damageがどれくらいダメージに影響するかを検証するた�
 を実行し、対象を設置する
 
 ### 1. 対象に必ず当たる角度に「矢※1」を召喚し、対象にダメージを与える
-damage:1~6
-MotionX:1~10
-MotionY:1~10
+damage:1～6
+MotionX:1～10
+MotionY:1～10
 の合計600パターンを以下のコマンドを用いてダメージを与える
 ```
 /execute as @e[type=skeleton,limit=1] at @s run summon arrow ~0.5 ~3 ~ {Motion:[-%MotionX%d,-%MotionY%d,0d],NoGravity:1b,damage:%damage%d}
