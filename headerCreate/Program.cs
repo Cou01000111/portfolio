@@ -30,7 +30,7 @@ namespace headerCreate
       inHeader = false;
       foreach (var file in Directory.GetFiles(@"../","*.html",SearchOption.AllDirectories))
       {
-        Console.WriteLine("loading html...");
+        Console.WriteLine("loading " + file);
         StreamReader sr = new StreamReader(file, Encoding.GetEncoding("UTF-8"));
 
         line = null;
