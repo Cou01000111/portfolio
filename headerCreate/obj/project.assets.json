@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\programing\\3rdPortfolio\\headerCreate\\headerCreate.csproj",
+      "projectUniqueName": "D:\\Documents\\programing\\3rdPortfolio\\portfolio\\headerCreate\\headerCreate.csproj",
       "projectName": "headerCreate",
-      "projectPath": "D:\\Documents\\programing\\3rdPortfolio\\headerCreate\\headerCreate.csproj",
+      "projectPath": "D:\\Documents\\programing\\3rdPortfolio\\portfolio\\headerCreate\\headerCreate.csproj",
       "packagesPath": "C:\\Users\\YUUKI\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\programing\\3rdPortfolio\\headerCreate\\obj\\",
+      "outputPath": "D:\\Documents\\programing\\3rdPortfolio\\portfolio\\headerCreate\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\YUUKI\\AppData\\Roaming\\NuGet\\NuGet.Config",
