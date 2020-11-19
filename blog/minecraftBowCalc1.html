@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -36,7 +36,7 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-      axios.get('/portfolio/blog/intro.md')
+      axios.get('/portfolio/blog/minecraftBowCalc1.md')
         .then(response => {
           document.getElementById('markdownArea').innerHTML = marked(response.data)
           console.log(response.data)
