@@ -26,9 +26,9 @@ namespace headerCreate
       foreach(var tmpLine in headerTmp){
         Console.WriteLine(tmpLine);
       }
-
+      tmp.Close();
       inHeader = false;
-      foreach (var file in Directory.GetFiles(@"../","html.html",SearchOption.AllDirectories))
+      foreach (var file in Directory.GetFiles(@"../","*.html",SearchOption.AllDirectories))
       {
         Console.WriteLine("loading html...");
         StreamReader sr = new StreamReader(file, Encoding.GetEncoding("UTF-8"));
