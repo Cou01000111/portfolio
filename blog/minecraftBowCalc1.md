@@ -28,9 +28,9 @@ MotionY:1～10
 
 ここで使用する「矢」は以下の条件とする
 
-1.damageが1~6
+1.damageが1～6
 
-2.Motionが[0~-10,0~-10,0]
+2.Motionが[0～-10, 0～-10, 0]
 
 3.NoGravityが1b(true)
 
