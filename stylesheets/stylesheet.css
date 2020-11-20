@@ -16,7 +16,7 @@ a{
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, p, img, code{
+h1, h2, h3, h4, h5, p, img{
   padding: 12px;
   color: #303030;
 }
@@ -61,6 +61,8 @@ img{
 pre{
   background-color: #424242;
   margin: 16px 32px 16px 32px;
+  display: block;
+  padding: 12px;
 }
 
 code{
