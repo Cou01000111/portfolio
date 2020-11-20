@@ -5,7 +5,7 @@
 
 body{
   margin: 0px;
-  background-color: #ddd;
+  background-color: #eee;
 }
 
 main{
@@ -55,4 +55,9 @@ p, img{
 img{
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 20%);
   border: solid 1px #46B9FF;
+}
+
+code{
+  background-color: #303030;
+  color: #ddd;
 }

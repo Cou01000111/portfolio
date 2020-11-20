@@ -3,31 +3,31 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace headerCreate
+namespace headCopy
 {
   class Program
   {
     static void Main(string[] args)
     {
-      List<string> headerTmp = new List<string>();
+      List<string> headTmp = new List<string>();
       string[] tmpFiles = Directory.GetFiles(@"../","tmp.html",SearchOption.AllDirectories);
       string tmpFile = tmpFiles[0];
       StreamReader tmp = new StreamReader(tmpFile, Encoding.GetEncoding("UTF-8"));
-      bool inHeader = false;
+      bool inHead = false;
       string line;
       while((line = tmp.ReadLine()) != null){
-        if(line.Contains(@"<header>") || line.Contains(@"</header>") || inHeader){
-          headerTmp.Add(line);
-          if(line.Contains(@"</header>"))inHeader = false;
-          else inHeader = true;
+        if(line.Contains(@"<head>") || line.Contains(@"</head>") || inHead){
+          headTmp.Add(line);
+          if(line.Contains(@"</head>"))inHead = false;
+          else inHead = true;
           continue;
         }
       }
-      foreach(var tmpLine in headerTmp){
+      foreach(var tmpLine in headTmp){
         Console.WriteLine(tmpLine);
       }
       tmp.Close();
-      inHeader = false;
+      inHead = false;
       foreach (var file in Directory.GetFiles(@"../","*.html",SearchOption.AllDirectories))
       {
         Console.WriteLine("loading " + file);
@@ -36,12 +36,12 @@ namespace headerCreate
         line = null;
         List<string> texts = new List<string>();
         while((line = sr.ReadLine()) != null){
-          if(line.Contains(@"<header>") || line.Contains(@"</header>") || inHeader){
-            if(line.Contains(@"</header>")){
-              inHeader = false;
-              texts.AddRange(headerTmp);
+          if(line.Contains(@"<head>") || line.Contains(@"</head>") || inHead){
+            if(line.Contains(@"</head>")){
+              inHead = false;
+              texts.AddRange(headTmp);
               }
-            else inHeader = true;
+            else inHead = true;
             continue;
           }
           texts.Add(line);
