@@ -16,7 +16,7 @@ a{
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, p, img{
+h1, h2, h3, h4, h5, p, img, code{
   padding: 12px;
   color: #303030;
 }
@@ -58,6 +58,7 @@ img{
 }
 
 code{
+  padding: 2px;
   background-color: #303030;
   color: #ddd;
 }
