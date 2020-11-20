@@ -55,10 +55,14 @@ p, img{
 img{
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 20%);
   border: solid 1px #46B9FF;
+  margin: 0px 32px 0px 32px;
+}
+
+pre{
+  background-color: #424242;
+  margin: 16px 32px 16px 32px;
 }
 
 code{
-  padding: 2px;
-  background-color: #303030;
   color: #ddd;
 }
