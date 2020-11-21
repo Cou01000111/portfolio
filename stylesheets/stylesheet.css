@@ -41,15 +41,15 @@ h3{
 }
 
 h4{
-  margin: 0px 16px 0px 16px;
+  margin: 8px 16px 0px 16px;
 }
 
 h5{
-  margin: 0px 24px 0px 24px;
+  margin: 8px 24px 0px 24px;
 }
 
 p, img, table{
-  margin: 0px 32px 0px 32px;
+  margin: 8px 32px 0px 32px;
 }
 
 img{
@@ -60,7 +60,7 @@ img{
 
 pre{
   background-color: #424242;
-  margin: 8px 32px 8px 32px;
+  margin: 16px 32px 0px 32px;
   display: block;
   padding: 12px;
   border-radius: 5px;
