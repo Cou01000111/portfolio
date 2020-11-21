@@ -80,11 +80,11 @@ code{
 pre > code{
   color: #ddd;
   border: none;
-  background-color: none;
+  background-color: #424242;
 }
 
 
 
-tr ,thead ,th{
+td ,th{
   border: solid 1px #999;
 }
