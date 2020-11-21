@@ -83,8 +83,11 @@ pre > code{
   background-color: #424242;
 }
 
-
+table {
+  border-spacing: 0;
+}
 
 td ,th{
   border: solid 1px #999;
+  padding: 2px;
 }
