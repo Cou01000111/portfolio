@@ -71,10 +71,12 @@ pre{
 
 pre > code{
   color: #ddd;
+  border: none;
 }
 
 code{
-  padding: 4px;
-  border-radius: 4%;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 8%;
   border: solid 1px #444;
 }
