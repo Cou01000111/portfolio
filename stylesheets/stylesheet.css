@@ -74,4 +74,6 @@ pre > code{
 
 code{
   padding: 4px;
+  border-radius: 4%;
+  border: solid 1px #444;
 }
