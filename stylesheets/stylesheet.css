@@ -78,5 +78,6 @@ code{
   margin: 2px;
   padding: 2px;
   border-radius: 8%;
-  border: solid 1px #444;
+  border: solid 1px #888;
+  background-color: #eee;
 }
