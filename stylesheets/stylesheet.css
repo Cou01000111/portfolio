@@ -69,11 +69,6 @@ pre{
   white-space: pre-wrap ;
 }
 
-pre > code{
-  color: #ddd;
-  border: none;
-}
-
 code{
   margin: 2px;
   padding: 2px;
@@ -81,6 +76,13 @@ code{
   border: solid 1px #999;
   background-color: #eee;
 }
+
+pre > code{
+  color: #ddd;
+  border: none;
+}
+
+
 
 tr ,thead{
   border: solid 1px #999;
