@@ -16,7 +16,7 @@ a{
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, p, img, code{
+h1, h2, h3, h4, h5, p, img, code, table{
   padding: 12px;
   color: #303030;
 }
@@ -48,7 +48,7 @@ h5{
   margin: 0px 24px 0px 24px;
 }
 
-p, img{
+p, img, table{
   margin: 0px 32px 0px 32px;
 }
 
