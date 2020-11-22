@@ -495,3 +495,8 @@ critical = ture ? roundup(sqrt(Xmotion^2+Ymotion^2+Zmotion^2) * damage) + roundu
 critical = ture ? roundup(sqrt(Xmotion^2+Ymotion^2+Zmotion^2) * damage) + round(sqrt(Xmotion^2+Ymotion^2+Zmotion^2) * damage / 2) + 1 : roundup(sqrt(Xmotion^2+Ymotion^2+Zmotion^2) * damage)
 ```
 である可能性もあり
+
+# その他
+この記事自体本当に何もしらない素人が書いたものなので、かなり検証方法や内容はひどいものになります
+
+また、この記事に書いてあることが正しいことは保障いたしかねます
