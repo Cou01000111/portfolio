@@ -90,9 +90,7 @@ table {
 td ,th{
   border: solid 1px #999;
   padding: 2px;
-  text-align: right;
 }
-
-td:first-child ,th:first-child{
+th{
   text-align: left;
 }
