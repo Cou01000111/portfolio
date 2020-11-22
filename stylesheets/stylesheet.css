@@ -89,7 +89,7 @@ table {
 
 td ,th{
   border: solid 1px #999;
-  padding: 2px;
+  padding: 4px 8px 4px 8px;
 }
 th{
   text-align: left;
