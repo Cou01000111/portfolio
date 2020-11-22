@@ -192,6 +192,7 @@ Arrow damage calculation : technicalminecraft - Reddit](https://www.reddit.com/r
 ## 結果
 検証結果が一定だったので試行回数は10とする
 csvLog2.csv参照
+
 |Xmotion|Ymotion|Zmotion|damage|
 |--|--|--|--|
 |0.03984109223947011d| -0.016949640444392636d| 2.756268304878535d|6|
@@ -255,6 +256,7 @@ csvLog2.csv参照
 試行回数不足を感じたため、追加検証予定
 
 追加検証100回
+
 |Xmotion|Ymotion|Zmotion|damage|
 |--|--|--|--|
 |0.018606306803610757| -0.02356242045690009| 2.7084694937679705|7|
