@@ -19,8 +19,9 @@ int main(int argc, char *argv[]){
   //新規作成するファイル名
   char fileName[256];
   strcpy(fileName,argv[1]);
+  printf("%s\n",fileName);
   //新規作成するhtmlファイルの中身
-  char html[2048];
+  char html[3000];
 
   //テンプレートファイルを読み込み
   fp = fopen("./blog/blogTmp.html", "r");
@@ -31,17 +32,19 @@ int main(int argc, char *argv[]){
   }
 
   //バッファのb
-  char b[256];
+  char b[256] = "\0";
   //blogTmp.htmlからhtmlテンプレートを一行ずつNULLが読み込まれるまで読み込み
   while((fgets(b,256,fp)) != NULL){
     //パスが含まれているところのみ書き換え
     if(strstr(b, "axios.get('/portfolio/blog/')")){
       sprintf(b,"      axios.get('/portfolio/blog/%s.md')\n",fileName);
+      //printf("1:%s\n",fileName);
     }
     strcat(html,b);
+    //printf("2:%s\n",fileName);
   }
   fclose(fp);
-
+  //printf("3:%s\n",fileName);
   //printf("%s",html);
   //新規作成するhtmlファイルのPath
   char newFilePathHtml[256];
@@ -51,7 +54,6 @@ int main(int argc, char *argv[]){
 
   sprintf(newFilePathHtml, "./blog/%s.html",fileName );
   sprintf(newFilePathMd, "./blog/%s.md",fileName );
-
   //readonlyでファイルを開きファイルを新規作成
   fp = fopen(newFilePathHtml, "r");
   //すでに同じ名前のファイルがある場合上書き保存するか聞く
@@ -61,12 +63,15 @@ int main(int argc, char *argv[]){
     scanf("%c",&ans);
     if(ans == 'n')return -1;
   }
+  printf("create %s\ncreate%s\n",newFilePathHtml,newFilePathMd);
 
   //htmlファイルをもう一度開く
   fp = fopen(newFilePathHtml, "w");
   //htmlに書き込み
   fputs(html, fp);
+  printf("%s\n",html);
   fclose(fp);
+  //printf("create %s\n",fileName);
   //mdファイル新規作成
   fp = fopen(newFilePathMd, "w");
   fclose(fp);
