@@ -38,11 +38,6 @@
     <script>
       axios.get('/portfolio/blog/')
         .then(response => {
-          var renderer = new marked.renderer();
-          renderer.table =
-          marked.setOptions({
-            renderer: renderer,
-          })
           document.getElementById('markdownArea').innerHTML = marked(response.data)
           console.log(response.data)
       });
