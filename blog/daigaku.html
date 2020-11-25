@@ -1,4 +1,4 @@
-﻿ ﻿<!DOCTYPE html>
+ ﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -33,11 +33,15 @@
     </ul>
   </header>
   <main>
+    <h1>この記事はパスワードが必要です</h1>
+    <p>パスワードを入力してください</p>
+    <input type="password" id="password">
     <div id="markdownArea"></div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-      axios.get('/portfolio/blog/flie.md')
+      al
+      axios.get('/portfolio/blog/daigaku.md')
         .then(response => {
           document.getElementById('markdownArea').innerHTML = marked(response.data)
           console.log(response.data)
