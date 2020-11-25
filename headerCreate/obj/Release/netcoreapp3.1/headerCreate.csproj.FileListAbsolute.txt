@@ -1,0 +1,13 @@
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\bin\Release\netcoreapp3.1\headerCreate.exe
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\bin\Release\netcoreapp3.1\headerCreate.deps.json
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\bin\Release\netcoreapp3.1\headerCreate.runtimeconfig.json
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\bin\Release\netcoreapp3.1\headerCreate.runtimeconfig.dev.json
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\bin\Release\netcoreapp3.1\headerCreate.dll
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\bin\Release\netcoreapp3.1\headerCreate.pdb
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\obj\Release\netcoreapp3.1\headerCreate.csprojAssemblyReference.cache
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\obj\Release\netcoreapp3.1\headerCreate.AssemblyInfoInputs.cache
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\obj\Release\netcoreapp3.1\headerCreate.AssemblyInfo.cs
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\obj\Release\netcoreapp3.1\headerCreate.csproj.CoreCompileInputs.cache
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\obj\Release\netcoreapp3.1\headerCreate.dll
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\obj\Release\netcoreapp3.1\headerCreate.pdb
+D:\Documents\programing\3rdPortfolio\portfolio\headerCreate\obj\Release\netcoreapp3.1\headerCreate.genruntimeconfig.cache
