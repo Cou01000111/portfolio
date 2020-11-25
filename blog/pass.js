@@ -1,5 +1,5 @@
 'use strict';
-function reaTextFile(file){
+function reaTextFile(){
   var rawFile = new XMLHttpRequest();
   var fileName = "./pass.txt"
   var allText;
@@ -8,13 +8,14 @@ function reaTextFile(file){
     if(rawFile.readyState === 4){
       if(rawFile.status === 200 || rawFile.status == 0){
         allText = rawFile.responseText;
+        return allText;
       }
     }
   }
 }
 
 var pass = document.getElementById("password").value;
-if(pass == allText){
+if(pass == reaTextFile()){
   axios.get('/portfolio/blog/daigaku.md')
     .then(response => {
       document.getElementById('markdownArea').innerHTML = marked(response.data)
