@@ -40,14 +40,16 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-      var pass = document.getElementById("password");
-      axios.get('/portfolio/blog/daigaku.md')
-        .then(response => {
-          document.getElementById('markdownArea').innerHTML = marked(response.data)
-          console.log(response.data)
-      });
-
-
+      var pass = document.getElementById("password").value;
+      if(pass == 'courange0723'){
+        axios.get('/portfolio/blog/daigaku.md')
+          .then(response => {
+            document.getElementById('markdownArea').innerHTML = marked(response.data)
+            console.log(response.data)
+          });
+      }else{
+        alert('パスワードが違います');
+      }
     </script>
   </main>
 
