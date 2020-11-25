@@ -23,8 +23,8 @@ header > a > img{
 .links{
   list-style: none;
   overflow: hidden;
-  margin: none;
-  padding: none;
+  margin: 0;
+  padding: 0;
   border: none;
 }
 
