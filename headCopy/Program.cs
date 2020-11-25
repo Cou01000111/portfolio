@@ -28,7 +28,7 @@ namespace headCopy
       }
       tmp.Close();
       inHead = false;
-      foreach (var file in Directory.GetFiles(@"../","*.html",SearchOption.AllDirectories))
+      foreach (var file in Directory.GetFiles(@"..\","*.html",SearchOption.AllDirectories))
       {
         Console.WriteLine("loading " + file);
         StreamReader sr = new StreamReader(file, Encoding.GetEncoding("UTF-8"));

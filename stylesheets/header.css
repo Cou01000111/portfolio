@@ -20,7 +20,7 @@ header > a > img{
   border: none;
 }
 
-.links{
+header > .links{
   list-style: none;
   overflow: hidden;
   margin: 0;
