@@ -40,7 +40,7 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-      al
+      var pass = document.getElementById("password");
       axios.get('/portfolio/blog/daigaku.md')
         .then(response => {
           document.getElementById('markdownArea').innerHTML = marked(response.data)
