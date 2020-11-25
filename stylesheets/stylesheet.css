@@ -16,7 +16,7 @@ a{
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, p, img, code, table{
+h1, h2, h3, h4, h5, p, img, code, table, input{
   padding: 12px;
   color: #303030;
 }
@@ -48,7 +48,7 @@ h5{
   margin: 8px 24px 0px 24px;
 }
 
-p, img, table{
+p, img, table, input{
   margin: 8px 32px 0px 32px;
 }
 
@@ -105,4 +105,8 @@ ul{
 
 li{
   margin-bottom: 4px;
+}
+
+input{
+
 }
