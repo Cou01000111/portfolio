@@ -35,22 +35,12 @@
   <main>
     <h1>この記事はパスワードが必要です</h1>
     <p>パスワードを入力してください</p>
+    <form onsubmit=""></form>
     <input type="password" id="password">
     <div id="markdownArea"></div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script>
-      var pass = document.getElementById("password").value;
-      if(pass == 'courange0723'){
-        axios.get('/portfolio/blog/daigaku.md')
-          .then(response => {
-            document.getElementById('markdownArea').innerHTML = marked(response.data)
-            console.log(response.data)
-          });
-      }else{
-        alert('パスワードが違います');
-      }
-    </script>
+    <script src="/portfolio/blog/pass.js"></script>
   </main>
 
   <footer>
