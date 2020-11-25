@@ -23,6 +23,9 @@ header > a > img{
 .links{
   list-style: none;
   overflow: hidden;
+  margin: none;
+  padding: none;
+  border: none;
 }
 
 header > .links > li{
